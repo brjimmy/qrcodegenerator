@@ -1,0 +1,127 @@
+/* Existing general styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 175px;
+}
+
+
+h1 {
+    margin: 10px 0;
+    font-size: 28px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FF4713;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4A4F54;
+}
+
+#qrPreviewContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#qrPreview {
+    border: 10px solid transparent; /* Default transparent border */
+    display: inline-block; /* Ensure it wraps the QR code only */
+    background-color: transparent; /* Maintain transparency */
+    padding: 10px;
+}
+
+
+.download-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.download-btn {
+    flex: 1;
+}
+
+
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: -25px; /* Space between container and footer */
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: #BBBBBB;
+}
