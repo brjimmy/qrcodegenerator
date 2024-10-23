@@ -68,12 +68,12 @@ downloadButtons.forEach((button) => {
                 img.onload = () => {
                     const canvas = document.createElement("canvas");
                     const context = canvas.getContext("2d");
-                    canvas.width = 340;
-                    canvas.height = 340;
+                    canvas.width = 540;
+                    canvas.height = 540;
 
                     context.fillStyle = format === "jpg" ? "#ffffff" : "rgba(0, 0, 0, 0)";
                     context.fillRect(0, 0, canvas.width, canvas.height);
-                    context.drawImage(img, 20, 20, 300, 300);
+                    context.drawImage(img, 20, 20, 500, 500);
 
                     canvas.toBlob((blob) => {
                         const link = document.createElement("a");
