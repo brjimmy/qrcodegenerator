@@ -61,6 +61,30 @@ button:hover {
     background-color: #4A4F54;
 }
 
+
+
+
+/* Corrected style for the new high-res button */
+.high-res-btn {
+    background-color: #4A4F54 !important;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    flex: 1;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.high-res-btn:hover {
+    background-color: #FF4713; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight scaling effect */
+}
+
+
+
+
+
 #qrPreviewContainer {
     display: flex;
     justify-content: center;
@@ -125,3 +149,33 @@ body {
     font-size: 12px;
     color: #BBBBBB;
 }
+
+
+
+/* Center the input field horizontally */
+.input-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    margin: 15px 0; /* Adjust spacing */
+}
+
+#qrText {
+    width: 80%; /* Adjust width as needed */
+    max-width: 700px; /* Prevent it from becoming too wide */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+
+/* Style for the description text */
+.description {
+    font-size: 15px;
+    color: #4A4F54;
+    margin-top: 5px;  /* Small space between title and description */
+    margin-bottom: 15px;  /* Space before the input field */
+    line-height: 1.4;
+    text-align: center;  /* Center align the text */
+}
+

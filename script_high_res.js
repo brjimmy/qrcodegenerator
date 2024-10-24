@@ -68,12 +68,12 @@ downloadButtons.forEach((button) => {
                 img.onload = () => {
                     const canvas = document.createElement("canvas");
                     const context = canvas.getContext("2d");
-                    canvas.width = 540;
-                    canvas.height = 540;
+                    canvas.width = 1040;
+                    canvas.height = 1040;
 
                     context.fillStyle = format === "jpg" ? "#ffffff" : "rgba(0, 0, 0, 0)";
                     context.fillRect(0, 0, canvas.width, canvas.height);
-                    context.drawImage(img, 20, 20, 500, 500);
+                    context.drawImage(img, 20, 20, 1000, 1000);
 
                     canvas.toBlob((blob) => {
                         const link = document.createElement("a");
@@ -100,6 +100,6 @@ downloadButtons.forEach((button) => {
 
 
 // Add this at the bottom of script.js
-document.getElementById('highResBtn').addEventListener('click', () => {
-    window.location.href = 'high_res.html';
+document.getElementById('lowResBtn').addEventListener('click', () => {
+    window.location.href = 'index.html';
 });
